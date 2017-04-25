@@ -1,2 +1,1 @@
-# react-native-ava
-# react-native-ava
+# react-native-Snidel
