@@ -15,7 +15,7 @@ class Header extends Component {
         let rem = this.state.rem;
         return (
             <div>
-                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',height:0.45*rem,width:3.75*rem,backgroundColor:'#f6f7f7',position:'relative'}}>
+                <div style={{display:'flex',flexDirection:'row',justifyContent:'center',alignItems:'center',height:0.45*rem,width:3.75*rem,backgroundColor:'#f3f4f5',position:'relative'}}>
                     <span style={{fontColor:'#2d2d34',fontSize:0.17*rem}}>商店</span>
                     <a style={{position:'absolute',top:0.1*rem,right:0.4*rem,textDecoration:'none'}} href=""><img
                         src={require('./search@2.jpg')} alt="" style={{width:0.3*rem,height:0.26*rem}}/></a>

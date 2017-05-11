@@ -17,7 +17,6 @@ class ListDetail extends Component {
 
     render() {
         let rem = this.state.rem;
-
         return (
             <div style={{height:2.3*rem,display:'flex',marginLeft:0.2*rem,marginBottom:-1,borderBottom:'1px solid #e3e4e8',position:'relative'}}>
                 <img src={require('./'+this.props.picture+'.jpg')} style={{width:1.4*rem,height:1.4*rem,margin:0.25*rem,marginLeft:0,borderRadius:0.1*rem}} alt=""/>
@@ -72,28 +71,28 @@ class List extends Component {
                                 <img src={require('./hot@2.jpg')} style={{width:0.25*rem,height:0.25*rem}} alt=""/><span style={{}}>热销榜</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>解忧杂货铺</span><br/>
+                                <span>解忧杂货铺</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>美体小铺</span><br/>
+                                <span>美体小铺</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>星美妆报告</span><br/>
+                                <span>星美妆报告</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>创意生活</span><br/>
+                                <span>创意生活</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
                                 <img src={require('./hello@2.jpg')} style={{width:0.25*rem,height:0.25*rem}} alt=""/><span style={{}}>萌萌哒</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>文艺范</span><br/>
+                                <span>文艺范</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
                                 <img src={require('./sale@2.jpg')} style={{width:0.25*rem,height:0.25*rem}} alt=""/><span style={{}}>折扣中</span><br/>
                             </div>
                             <div style={{height:1.08*rem,display:'flex',justifyContent:'center',alignItems:'center',textAlign:'center',borderBottom:'1px solid #e3e4e8'}}>
-                                <span style={{}}>送闺蜜</span><br/>
+                                <span>送闺蜜</span><br/>
                             </div>
                         </div>
                         <div style={{width:5.9*rem}}>

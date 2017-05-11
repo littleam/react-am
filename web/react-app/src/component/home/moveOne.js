@@ -15,32 +15,51 @@ class MoveOne extends Component {
         let rem = this.state.rem;
         return (
             <div>
-                <div id="div1" style={{width:3.75*rem,height:1.955*rem,position:'relative',overflow:'hidden'}}>
+                <div id="div1" style={{width:3.75*rem,height:2.1*rem,position:'relative',overflow:'hidden'}}>
                     <ul style={{margin:0,padding:0,width:22.5*rem,position:'absolute',top:0,left:0}}>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top_visual@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move1@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top_5@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move2@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top-10@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move3@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
+                        </li>
+
+                        <li style={{margin:0,padding:0,listStyle:'none'}}>
+                            <img
+                                src={require('./move5@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top_visual@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move6@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top_5@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move1@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
                         <li style={{margin:0,padding:0,listStyle:'none'}}>
                             <img
-                                src={require('./top-10@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:1.995*rem,float:'left'}}/>
+                                src={require('./move2@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
                         </li>
+                        <li style={{margin:0,padding:0,listStyle:'none'}}>
+                            <img
+                                src={require('./move3@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
+                        </li>
+
+                        <li style={{margin:0,padding:0,listStyle:'none'}}>
+                            <img
+                                src={require('./move5@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
+                        </li>
+                        <li style={{margin:0,padding:0,listStyle:'none'}}>
+                            <img
+                                src={require('./move6@2.jpg')} alt="" style={{margin:0,padding:0,width:3.75*rem,height:2.1*rem,float:'left'}}/>
+                        </li>
+
                     </ul>
                 </div>
             </div>

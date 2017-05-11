@@ -18,10 +18,10 @@ class Banner extends Component {
         let rem = this.state.rem;
         return (
             <div>
-                <div style={{width:7.5*rem,height:1.24*rem,borderBottom:'1px solid #eaebec',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+                <div style={{width:7.5*rem,height:0.8*rem,borderBottom:'1px solid #eaebec',display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',backgroundColor:'#f3f4f5',color:'#3f3f45',fontSize:0,paddingBottom:0.05*rem}}>
                     <div style={{textAlign:'center'}}>
-                    <span style={{fontSize:0.29*rem,fontFamily:'PingFangSC-Thin'}}>{this.props.title}</span><br/>
-                    <span ><em style={{fontSize:0.1*rem,fontFamily:'Times New Roman'}}>CHANNEL</em></span>
+                    <span style={{fontSize:0.29*rem,fontFamily:'PingFangSC-Regular'}}>__{this.props.title}__</span><br/>
+                    <span ><em style={{fontSize:0.22*rem,fontFamily:'Times New Roman'}}>CHANNEL</em></span>
                     </div>
                 </div>
 

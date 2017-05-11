@@ -68,8 +68,35 @@ class DetailPage extends Component {
                         <span style={{fontSize:0.27*rem}}>商品评价(88)</span><br/>
                         <img src={require('./user@2.jpg')} style={{width:0.49*rem,height:0.49*rem}} alt=""/><span style={{fontSize:0.24*rem}}>x**6</span><br/>
                         <span style={{fontSize:0.24*rem}}>护手霜很润，很好吸收.....</span><br/>
-                        <div style={{width:7.3*rem,textAlign:'center',marginBottom:0.49*rem,marginTop:0.49*rem}}><span style={{fontSize:0.27*rem,color:'#65c4aa',border:'1px solid #9de4d1',borderRadius:0.25*rem,padding:0.08*rem}}>查看全部评价</span></div>
+                        <div style={{width:7.3*rem,textAlign:'center',marginBottom:0.49*rem,marginTop:0.49*rem}}><span style={{fontSize:0.27*rem,color:'#65c4aa',border:'1px solid #9de4d1',borderRadius:0.3*rem,padding:0.06*rem,paddingLeft:0.18*rem,paddingRight:0.18*rem}}>查看全部评价</span></div>
 
+                    </div>
+                    {/*店铺信息*/}
+                    <SeparateLine/>
+                    <div style={{width:7.5*rem,height:4.04*rem}}>
+                        <div style={{marginTop:0.26*rem}}>
+                            <img src={require('./shop1@2.jpg')} style={{width:0.95*rem,height:0.95*rem}} alt=""/>
+                            <span style={{fontSize:0.3*rem}}>小猪麦都旗舰店</span>
+                            <div style={{display:'flex',textAlign:'center',marginTop:0.21*rem}}>
+                                <div style={{flex:1,borderLeft:'1px dotted #e7e6e5'}}>
+                                    <span style={{fontSize:0.28*rem}}>312</span><br/>
+                                    <span style={{fontSize:0.23*rem}}>全部宝贝</span>
+                                </div>
+                                <div style={{flex:1,height:1.16*rem,borderLeft:'1px dotted #e7e6e5'}}>
+                                    <span style={{fontSize:0.28*rem}}>16.9万</span><br/>
+                                    <span style={{fontSize:0.25*rem}}>关注人数</span>
+                                </div>
+                                <div style={{fontSize:0.25*rem,flex:1,borderLeft:'1px dotted #e7e6e5'}}>
+                                    <span>宝贝描述 4.9</span><span style={{paddingRight:0.05*rem,paddingLeft:0.05*rem,borderRadius:0.03*rem,backgroundColor:'#65c4aa',fontSize:0.2*rem,color:'white'}}>高</span><br/>
+                                    <span>卖家服务 4.9</span><span style={{paddingRight:0.05*rem,paddingLeft:0.05*rem,borderRadius:0.03*rem,backgroundColor:'#65c4aa',fontSize:0.2*rem,color:'white'}}>高</span><br/>
+                                    <span>物流服务 4.8</span><span style={{paddingRight:0.05*rem,paddingLeft:0.05*rem,borderRadius:0.03*rem,backgroundColor:'#65c4aa',fontSize:0.2*rem,color:'white'}}>高</span>
+                                </div>
+                            </div>
+                            <div style={{display:'flex'}}>
+                                <div style={{width:3.75*rem,textAlign:'center',marginBottom:0.45*rem,marginTop:0.49*rem}}><span style={{fontSize:0.27*rem,color:'#65c4aa',border:'1px solid #9de4d1',borderRadius:0.3*rem,padding:0.06*rem,paddingLeft:0.18*rem,paddingRight:0.18*rem}}>查看分类</span></div>
+                                <div style={{width:3.75*rem,textAlign:'center',marginBottom:0.48*rem,marginTop:0.49*rem}}><span style={{fontSize:0.27*rem,color:'#65c4aa',border:'1px solid #9de4d1',borderRadius:0.3*rem,padding:0.06*rem,paddingLeft:0.18*rem,paddingRight:0.18*rem}}>进店逛逛</span></div>
+                            </div>
+                        </div>
                     </div>
                     {/*图文详情*/}
                     <SeparateLine/>
