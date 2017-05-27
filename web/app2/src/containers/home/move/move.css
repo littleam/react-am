@@ -1,12 +1,12 @@
 
-ul {
+.mov-cir-w {
     position: absolute;
     margin-top: -0.35rem;
     text-align: center;
-    margin-left: 2.2rem;
+    margin-left: 2.1rem;
 
 }
-li {
+.mov-cir-w li {
     width:0.23rem;
     height:0.23rem;
     list-style: none;
@@ -17,10 +17,10 @@ li {
     opacity: 0.5;
 
 }
-.selected {
-    background-color: white;opacity: 1;border:0.01rem dotted #617f57;
+.mov-cir-w .mov-selected {
+    background-color: white;opacity: 1;
 }
-.carousel img {
+.mov-carousel img {
     margin:0;
     padding:0;
     width:7.5rem;

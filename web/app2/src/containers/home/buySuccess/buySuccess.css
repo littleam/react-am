@@ -1,0 +1,27 @@
+.bss-wrap {
+    width:7.5rem;position:relative;font-size:0.26rem;color:#3f3f45;overflow:auto
+}
+.bss-header {
+    display:flex;flex-direction:row;justify-content:center;align-items:center;height:0.9rem;width:7.5rem;background-color:#f6f7f7;position:relative;border-bottom:0.01rem dotted #dcdde3
+}
+.bss-success {
+    color:#2d2d34;font-size:0.34rem
+}
+.bss-server {
+    height:0.9rem;width:0.5rem;position:absolute;top:0.2rem;right:0.3rem;text-decoration:none
+}
+.bss-icon {
+    width:0.47rem;height:0.47rem
+}
+.bss-pic {
+    width:7.5rem;height:2.5rem
+}
+.bss-adr {
+    height:1.5rem;border-bottom:0.01rem dotted #dcdde3
+}
+.bss-over {
+    height:2.18rem;width:7.5rem;display:flex;justify-content:space-around;align-items:center;font-size:0.3rem;color:#65c4aa
+}
+.bss-back {
+    width:2.5rem;height:0.6rem;border:0.01rem dotted #65c4aa;border-radius:0.5rem
+}

@@ -1,0 +1,24 @@
+.nav-out {
+    width:7.5rem;position: relative;
+}
+.nav-wrap {
+    width:7.5rem;height:0.9rem;background-color:#f3f4f5;position:fixed;bottom:0;display:flex;
+}
+.nav-pos {
+    position: absolute;bottom:0
+}
+.nav-link {
+    text-decoration:none
+}
+.nav-txt {
+    font-size: 0.2rem;margin-top:-0.01rem
+}
+.nav-active {
+    color:#65c4aa
+}
+.nave-w {
+    width:1.5rem;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#adadb7;font-size:0.24rem
+}
+.nav-pic {
+    width:0.56rem;height:0.57rem;margin-top:0.03rem
+}

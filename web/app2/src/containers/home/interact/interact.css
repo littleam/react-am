@@ -1,0 +1,12 @@
+.interact-w1 {
+    width:7.5rem;height:0.9rem;color:#787a7d;border-top:0.01rem solid #eaebec;font-size:0.2rem;
+}
+.interact-w2{
+    margin-top: 0.25rem;margin-left:0.2rem;
+}
+.interact-hart,.interact-ratting,.interact-focus {
+    padding-right:0.2rem;padding-left:0.03rem
+}
+.interact-pic {
+    width:0.37rem;height:0.31rem;margin-left: 0.1rem;
+}

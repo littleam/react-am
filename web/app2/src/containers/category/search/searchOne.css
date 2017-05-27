@@ -1,16 +1,16 @@
-.search-w {
+.soe-w {
     display:flex;flex-direction:row;height:0.82rem;width:7.5rem;background-color:#f3f4f5;position:relative;padding-bottom:0.18rem;border-bottom:0.01rem solid #e6e6e6;
 }
 
-.search-inp {
+.soe-inp {
     position:relative;width:6.3rem;height:0.51rem;margin-left:0.1rem;margin-top:0.18rem;border:none;font-size:0.26rem;text-align:center;border-radius:0.005rem;
 }
-.search-s {
+.soe-s {
     position:absolute;width:0.27rem;height:0.28rem;left:1.6rem;top:0.37rem
 }
-.search-cart-w {
+.soe-cart-w {
     height:0.9rem;width:0.5rem;position:absolute;top:0.28rem;right:0.18rem;text-decoration:none
 }
-.search-cart {
+.soe-cart {
     width:0.48rem;height:0.48rem
 }

@@ -1,9 +1,10 @@
 .time_wrap {
-    height:5.8rem;
+    height:5.6rem;
     width:7.5rem;
     border-top-width:0.02rem;
     border-bottom-width:0.02rem;
-    border-color:#e3e4e8
+    border-color:#e3e4e8;
+
 }
 .time_banner{
     margin-top:0.16rem;
@@ -30,7 +31,8 @@
 .time_banner_right {
     height:1.13rem;
     width:3.75rem;
-    text-align:center
+    text-align:center;
+    font-size:0
 }
 .time_banner_three {
     font-size:0.3rem;
@@ -105,11 +107,12 @@
 }
 .time_more {
     width:7.5rem;
-    height:0.96rem;
+    height:0.95rem;
     font-size:0.26rem;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    color:#3f3f45
+    color:#3f3f45;
+
 }
