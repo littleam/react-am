@@ -1,0 +1,115 @@
+.time_wrap {
+    height:5.8rem;
+    width:7.5rem;
+    border-top-width:0.02rem;
+    border-bottom-width:0.02rem;
+    border-color:#e3e4e8
+}
+.time_banner{
+    margin-top:0.16rem;
+    height:0.9rem;
+    width:7.5rem;
+    display:flex;
+    flex-direction:row
+}
+.time_banner_left {
+    height:1.13rem;
+    width:3.75rem;
+    text-align:center;
+    font-size:0
+}
+.time_banner_one {
+    font-size:0.3rem;
+    color:#617f57
+}
+.time_banner_two {
+    font-size:0.26rem;
+    color:#617f57;
+    font-family:Times New Roman
+}
+.time_banner_right {
+    height:1.13rem;
+    width:3.75rem;
+    text-align:center
+}
+.time_banner_three {
+    font-size:0.3rem;
+    color:#7a7b87
+}
+.time_banner_four {
+    font-size:0.26rem;
+    color:#7a7b87;
+    font-family:Times New Roman
+}
+.time_line {
+    width:7.5rem;
+    height:0.04rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin:0;
+    padding:0
+}
+.time_down{
+    width:6.7rem;
+    height:0.04rem;
+    background-color:#f5f5f9;
+}
+.time_up {
+
+    width:3.14rem;
+    height:0.04rem;
+    background-color:#617f57;
+}
+.time_content {
+    border-bottom:0.002rem solid #eaebec;
+    height:3.71rem;
+    width:7.5rem;
+    display:flex;
+    flex-direction:row
+}
+.time_content_left {
+    width:3.44rem;
+    height:266rem;
+    margin-left:0.42rem;
+    margin-top:0.56rem;
+    margin-right:0.42rem
+}
+.time_content_one {
+    font-size:0.3rem;
+    font-weight:700
+}
+.time_content_two {
+    font-size:0.26rem;
+    color:red
+}
+.time_content_three {
+    font-size:0.24rem
+}
+.time_content-four {
+    font-size:0.3rem;
+    color:red
+}
+.time_content_right {
+    border:0.01rem solid #eaebec;
+    width:2.76rem;
+    height:2.72rem;
+    margin-top:0.48rem;
+    margin-bottom:0.48rem;
+    text-align:center;
+    padding-top:0.04rem
+}
+.time_picture {
+    width:2.68rem;
+    height:2.68rem
+}
+.time_more {
+    width:7.5rem;
+    height:0.96rem;
+    font-size:0.26rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#3f3f45
+}
