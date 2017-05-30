@@ -1,0 +1,38 @@
+.cpe-wrap {
+    height:0.38rem;
+    background-color:white;
+    border-bottom:0.01rem solid #dddddd;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding-right:0.08rem;
+    padding-left:0.08rem;
+}
+.cpe-w {
+    flex-direction:row;
+    align-items:center;
+}
+.cpe-pic1 {
+    width:0.15rem;
+    height:0.15rem;
+}
+.cpe-txt1 {
+    font-size:0.12rem;
+    padding-left:0.05rem
+}
+.cpe-pic2{
+    width:0.12rem;
+    height:0.12rem;
+}
+.cpe-pic-w {
+    flex-direction:row;
+}
+.cpe-pic3{
+    width:0.24rem;
+    height:0.13rem;
+}
+.cpe-txt2 {
+    font-size:0.12rem;
+    color:gray;
+}
+

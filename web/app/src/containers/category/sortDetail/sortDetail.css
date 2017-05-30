@@ -1,0 +1,50 @@
+/*ListDetail*/
+.lil-link {
+    text-decoration: none;
+    color:#3f3f45
+}
+.lil-wrap {
+    height:2.9rem;display:flex;margin-left:0.2rem;margin-bottom:-0.01rem;border-bottom:0.01rem solid #e3e4e8;position:relative
+}
+.lil-l-w {
+    width:4.4rem;margin-top:0.3rem;font-size:0.27rem
+}
+.lil-l-txt1 {
+    padding-right:0.3rem
+}
+.lil-l-txt2 {
+    color:#65c4aa;font-weight:700;display:inline-block;padding-top:0.2rem
+}
+.lil-l-txt3 {
+    border-radius:0.05rem;border:0.01rem dotted #3f3f45;font-size:0.2rem;padding-left:0.05rem;padding-right:0.05rem
+}
+.lil-pic-w {
+    width:2.8rem;height:2.5rem;display:flex;justify-content:center;align-items:center
+}
+.lil-pic {
+    width:2.21rem;height:1.65rem
+}
+/*SortDetail*/
+.sdl-wrap {
+    width:7.5rem;overflow:auto;position:relative;color:#3f3f45;font-size:0.25rem;z-index: 11;background-color: white;
+}
+.sdl-cat1-w {
+    font-size:0.28rem;border-bottom:0.01rem solid #e3e4e8;width:7.5rem;height:0.8rem;display:flex;flex-direction:row;background-color:#f3f4f5
+}
+.sdl-cat1-pic-w {
+    width:3.75rem;display:flex;justify-content:center;align-items:center;text-align:center
+}
+.sdl-cat1-pic {
+    width:0.19rem;height:0.18rem
+}
+.sdl-cat2-w {
+    width:7.5rem;height:0.96rem;display:flex;flex-direction:row;align-items:center;justify-content:space-around;font-size:0.28rem;border-bottom:0.01rem solid #e3e4e8
+}
+.sdl-cat2-pic-w {
+    width:1.5rem;height:0.45rem;display:flex;justify-content:center;align-items:center;text-align:center;border:0.02rem dotted gray;border-radius:0.08rem
+}
+.sdl-list-w {
+    width:7.5rem;
+}
+
+

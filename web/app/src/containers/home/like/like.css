@@ -1,0 +1,24 @@
+.like-wrap {
+    display:flex;flex-wrap:wrap
+}
+.like-w {
+    width:3.25rem;height:5.7rem;margin-right:0.2rem
+}
+.like-pic {
+    width:3.26rem;height:3.26rem;margin-top:0.41rem;margin-left:0.41rem
+}
+.like-txt {
+    width:3.25rem;height:1.9rem;margin-left:0.41rem;border-bottom:0.01rem solid #e3e4e8;
+}
+.like-title {
+    font-size:0.28rem;display:inline-block;width:3.25rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis
+}
+.like-des {
+    font-size:0.22rem;color:#999898;display:inline-block;width:3.25rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis
+}
+.like-price-a {
+    font-size:0.24rem
+}
+.like-price-b {
+    text-decoration:line-through;font-size:0.20rem;color:#999898
+}

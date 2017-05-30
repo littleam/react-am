@@ -1,0 +1,15 @@
+html {
+  height:100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: PingFangSC-Regular;
+  height:100%;
+  position:relative;
+  overflow: hidden;
+  font-size: 16px;
+  color:#3f3f45;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

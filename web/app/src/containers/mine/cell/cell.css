@@ -1,0 +1,22 @@
+
+.cell-wrap{
+    height:0.38rem;
+    background-color:white;
+    border-bottom:0.01rem solid #dddddd;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding-right:0.08rem;
+    padding-left:0.08rem;
+}
+.cell-txt1 {
+    font-size:0.22rem
+}
+.cell-pic {
+    width:0.12rem;
+    height:0.12rem;
+}
+.cell-txt2 {
+    font-size:0.22rem;
+    color:gray;
+}

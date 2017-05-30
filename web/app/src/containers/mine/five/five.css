@@ -1,0 +1,23 @@
+.five-wrap {
+    height:0.68rem;
+    background-color:white;
+    border-bottom:0.01rem solid #ddd;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    padding-right:0.08rem;
+    padding-left:0.08rem;
+    margin-bottom:0.08rem
+}
+.five-w {
+    align-items:center;
+    padding-top:0.08rem
+}
+.five-pic {
+    width:0.18rem;
+    height:0.18rem;
+    margin-bottom:0.1rem
+}
+.five-txt {
+    font-size: 0.11rem;
+}

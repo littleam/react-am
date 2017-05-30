@@ -1,0 +1,48 @@
+/*select*/
+.select-wrap {
+    font-size:0.28rem;border-bottom:0.01rem solid #e3e4e8;width:7.5rem;height:0.96rem;display:flex;background-color:#f3f4f5;position:relative
+}
+.select-w {
+    width:3.75rem;height:0.96rem;display:flex;justify-content:center;align-items:center;text-align:center;
+}
+.select-act {
+    color:#65c4aa
+}
+.select-line {
+    width:3.75rem;height:0.025rem;background-color:#65c4aa;
+}
+.select-l {
+    position:absolute;bottom:0;left:0
+}
+.select-r {
+    position:absolute;bottom:0;right:0
+}
+/*shareNice*/
+.sne-wrap {
+    color:#7a7b87;display:flex;flex-direction:column;align-items:center;height:7rem;
+}
+.sne-s {
+    width:6.9rem;display:flex;padding-top:0.26rem;padding-bottom:0.2rem;font-size: 0;
+
+}
+.sne-pic-s {
+    width:0.78rem;height:0.78rem;padding-right:0.15rem
+}
+.sne-name {
+    color:#617f57;font-size: 0.24rem;
+}
+.sne-info {
+    font-size:0.24rem
+}
+.sne-pic {
+    width:6.9rem;height:3.8rem
+}
+.sne-txt-w {
+    padding-top:0.2rem;padding-bottom:0.2rem;width:6.9rem;
+}
+.sne-title {
+    font-size:0.32rem;color:#3f3f45;font-weight:600
+}
+.sne-size {
+    font-size: 0.24rem;
+}

@@ -1,0 +1,18 @@
+.hdo-wrap {
+    display:flex;flex-direction:row;justify-content:center;align-items:center;height:0.9rem;width:7.5rem;background-color:#f3f4f5;position:relative;border-bottom:0.01rem solid #e6e6e6;
+}
+.hdo-title {
+    font-size:0.34rem
+}
+.hdo-editor {
+    height:1.8rem;width:1rem;position:absolute;top:0.25rem;right:0.5rem;font-size:0.32rem
+}
+.hdo-pic-w {
+    position:absolute;top:0.26rem;right:0.28rem;
+}
+.hdo-pic {
+    width:0.4rem;height:0.4rem
+}
+.hdo-point {
+    width:0.15rem;height:0.15rem;border-radius:0.5rem;background-color:#65c4aa;position:absolute;right:0.23rem;top:0.23rem
+}

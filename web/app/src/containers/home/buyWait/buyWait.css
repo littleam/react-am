@@ -1,0 +1,51 @@
+.bwt-wrap {
+    width:7.5rem;position:relative;font-size:0.26rem;color:#3f3f45;overflow:auto
+}
+.bwt-adr {
+    height:2.5rem
+}
+.bwt-shop-w {
+    height:0.8rem;width:7.5rem;background-color:#f3f4f5;border-left:0.02rem solid #d6d3d3;display:flex;align-items:center;text-align:center;vertical-align:center
+}
+.bwt-pic-s {
+    width:0.6rem;height:0.6rem;border-radius:0.5rem
+}
+.bwt-text-s {
+    color:#333;padding-left:0.15rem
+}
+.bwt-good-w {
+    height:2.5rem;display:flex;margin-left:0.2rem;margin-bottom:-0.01rem;border-bottom:0.01rem solid #e3e4e8;position:relative
+}
+.bwt-pic-g {
+    width:1.86rem;height:1.86rem;margin:0.2rem;margin-left:0
+}
+.bwt-text-w {
+    width:5rem;margin-top:0.25rem;margin-left:0.1rem
+}
+.bwt-text1 {
+    color:#333
+}
+.bwt-text2 {
+    font-size:0.24rem;color:#999898
+}
+.bwt-text3 {
+    font-size:0.25rem;color:#65c4aa;
+}
+.bwt-num-w {
+    position:absolute;right:0.1rem;bottom:0.1rem
+}
+.bwt-num {
+    padding-left:0.1rem;padding-right:0.1rem
+}
+.bwt-order-w {
+    height:0.93rem
+}
+.bwt-time {
+    border-top:0.01rem solid #e7e6e5;height:1.5rem
+}
+.bwt-pay-w {
+    height:0.93rem;width:7.5rem;background-color:#f3f4f5;position:fixed;bottom:0;display:flex
+}
+.bwt-pay {
+    width:2rem;height:0.6rem;font-size:0.26rem;background-color:#65c4aa;color:white;border-radius:0.5rem
+}

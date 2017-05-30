@@ -1,0 +1,166 @@
+.bdl-warp {
+    color:#3f3f45;
+    width:7.5rem;
+    overflow: auto;
+}
+.bdl-whole {
+    padding-bottom:0.94rem
+}
+.bdl-none {
+    display:none
+}
+.bdl-pic-big {
+    width:7.5rem;
+    height:7.5rem
+}
+.bdl-body {
+    padding-left:0.1rem
+}
+.bdl-info {
+    height:2.65rem;
+    padding-top:0.1rem
+}
+.bdl-title {
+    font-size:0.32rem
+}
+.bdl-price {
+    padding-top:0.1rem
+}
+.bdl-money {
+    color:#65c4aa;
+    font-size:0.2rem
+}
+.bdl-num {
+    font-size:0.36rem;
+    color:#65c4aa
+}
+.bdl-sale {
+    font-size:0.24rem;
+    color:#65c4aa;
+    border:0.01rem solid #9de4d1;
+    border-radius:0.05rem;
+    margin-left:0.1rem
+}
+.bdl-font-wrap {
+    display:flex;
+    width:7.3rem;
+    justify-content:space-between
+}
+.bdl-font {
+    font-size:0.24rem;
+    color:#a9a9a9
+}
+.bdl-share {
+    width:0.35rem;
+    height:0.35rem;
+    border-radius:0.1rem
+}
+.bdl-bottom {
+    width:7.5rem;
+    height:0.96rem;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    background-color:#f7f7f7
+}
+.bdl-icon {
+    width:0.36rem;
+    height:0.36rem
+}
+.bdl-both {
+    width:1.09rem;
+    height:0.94rem;
+    border-right:0.01rem solid #e7e6e5;
+    position:absolute;
+    text-align:center;
+    font-size:0.24rem
+}
+.bdl-server {
+    left:0
+}
+.bdl-shop {
+    left:1.1rem
+}
+.bdl-three {
+    height:0.94rem;
+    position:absolute;
+    text-align:center;
+}
+.bdl-collect {
+    width:1.1rem;
+    background-color:#f3f4f5;
+    left:2.2rem;
+    font-size:0.24rem
+}
+.bdl-cart {
+    width:2.1rem;
+    background-color:#9de4d1;
+    right:2.1rem;
+    color:white
+}
+.bdl-buy {
+    width:2.1rem;
+    background-color:#65c4aa;
+    right:0;
+    color:white
+}
+.bdl-sure {
+    font-size:0.24rem;height:0.76rem;border-bottom:0.01rem dotted #e7e6e5;padding-left:0.1rem
+}
+.bdl-seven {
+    padding:0.2rem
+}
+.bdl-discount {
+    font-size:0.24rem;height:0.76rem;border-bottom:0.01rem dotted #e7e6e5;padding-left:0.1rem
+}
+.bdl-ratting-w {
+    padding-left:0.1rem;border-top:0.01rem dotted #eaebec;font-size: 0.24rem;
+}
+.bdl-ratting {
+    font-size: 0.27rem;
+}
+.bdl-pic-user {
+    width:0.49rem;height:0.49rem
+}
+.bdl-more-w {
+    width:7.3rem;text-align:center;margin-bottom:0.49rem;margin-top:0.49rem
+}
+.bdl-more {
+    font-size:0.27rem;color:#65c4aa;border:0.01rem solid #9de4d1;border-radius:0.3rem;padding:0.06rem;padding-left:0.18rem;padding-right:0.18rem
+}
+.bdl-category {
+    width:3.75rem;text-align:center;margin-bottom:0.45rem;margin-top:0.49rem
+}
+.bdl-more-w {
+    display:flex;
+}
+.bdl-shopping {
+    margin-bottom:0.48rem
+}
+.bdl-shopping-d {
+    font-size:0.27rem;color:#65c4aa;border:0.01rem solid #9de4d1;border-radius:0.3rem;padding:0.06rem;padding-left:0.18rem;padding-right:0.18rem
+}
+.bdl-detail {
+    width:7.5rem;display:flex;flex-direction:column;align-items:center;font-size:0.26rem
+}
+.bdl-dis1 {
+    padding-left:0.25rem;padding-right:0.2rem
+}
+.bdl-one {
+    width:6.99rem;height:6.96rem;padding-top:0.43rem
+}
+.bdl-border {
+    width:6.82rem;height:6.92rem;border:0.01rem dotted #e7e6e5;text-align:center;margin-bottom:0.39rem
+}
+.bdl-two {
+    width:5.72rem;height:3.59rem;padding-top:1.69rem
+}
+.bdl-dis2 {
+    padding-left:0.25rem;padding-right:0.2rem
+}
+
+.bdl-five {
+    padding-top:0.4rem;padding-bottom:0.4rem;width:6.90rem;height:6.90rem
+}
+

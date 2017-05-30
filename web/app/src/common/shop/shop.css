@@ -1,0 +1,39 @@
+.bdl-shop-w {
+    width:7.5rem;height:4.04rem;
+}
+.bdl-top {
+    margin-top:0.26rem
+}
+.bdl-pic-shop {
+    width:0.95rem;height:0.95rem;
+}
+.bdl-size {
+    font-size:0.3rem;
+}
+.bdl-shop-d {
+    display:flex;text-align:center;margin-top:0.21rem
+}
+.bdl-good-w {
+    flex:1;border-left:0.01rem dotted #e7e6e5;
+}
+.bdl-font-size {
+    font-size:0.28rem;
+}
+.bdl-good {
+    font-size:0.23rem
+}
+.bdl-focus {
+    flex:1;height:1.16rem;border-left:0.01rem dotted #e7e6e5;
+}
+.bdl-size-f {
+    font-size:0.28rem
+}
+.bdl-good {
+    font-size:0.25rem
+}
+.bdl-score {
+    font-size:0.25rem;flex:1;border-left:0.01rem dotted #e7e6e5
+}
+.bdl-score-d {
+    padding-right:0.05rem;padding-left:0.05rem;border-radius:0.03rem;background-color:#65c4aa;font-size:0.2rem;color:white
+}

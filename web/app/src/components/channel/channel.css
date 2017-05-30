@@ -1,0 +1,12 @@
+.cnl-wrap {
+    width:7.5rem;height:0.8rem;border-bottom:0.01rem solid #eaebec;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:#f3f4f5;color:#3f3f45;font-size:0;padding-bottom:0.08rem
+}
+.cnl-w {
+    text-align:center
+}
+.cnl-txt1 {
+    font-size:0.29rem
+}
+.cnl-txt2 {
+    font-size:0.22rem;font-family:Times New Roman
+}

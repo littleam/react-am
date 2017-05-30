@@ -1,0 +1,25 @@
+.find-link {
+    text-decoration: none;
+    color:#3f3f45
+}
+.find-wrap {
+    height:2.3rem;display:flex;margin-left:0.2rem;margin-bottom:-0.001rem;border-bottom:0.01rem solid #e3e4e8;position:relative
+}
+.find-pic {
+    width:1.63rem;height:1.63rem;margin:0.3rem;margin-left:0
+}
+.find-text-w {
+    width:5rem;margin-top:0.3rem
+}
+.find-text1 {
+    font-size:0.27rem;font-weight:600
+}
+.find-text2 {
+    font-size:0.24rem;color:#a9a9a9
+}
+.find-color {
+    color:#3f3f45
+}
+.find-detail-w {
+    display:flex;width:7.5rem;flex-direction:column;position:relative;
+}

@@ -1,0 +1,81 @@
+.bst-wrap {
+    width:7.5rem;position:relative;font-size:0.26rem;color:#3f3f45;overflow:auto;
+}
+.bst-adr {
+    height:1.84rem;
+}
+.bst-shop {
+    height:0.8rem;width:7.5rem;background-color:#f3f4f5;border-left:0.02rem solid #d6d3d3;display:flex;align-items:center;text-align:center;vertical-align:center
+}
+.bst-pic-s {
+    width:0.6rem;height:0.6rem;border-radius:0.5rem
+}
+.bst-title-s {
+    color:#333;padding-left:0.15rem;font-size: 0.26rem;
+}
+.bst-good {
+    height:2.5rem;display:flex;margin-left:0.2rem;margin-bottom:-0.01rem;border-bottom:0.01rem solid #e3e4e8;position:relative
+}
+.bst-pic-g {
+    width:1.86rem;height:1.86rem;margin:0.155rem;margin-left:0
+}
+.bst-g-right {
+    width:5rem;margin-top:0.2rem;margin-left:0.1rem
+}
+.bst-text1 {
+    color:#333
+}
+.bst-text2 {
+    font-size:0.24rem;color:#999898
+}
+.bst-text3 {
+    font-size:0.25rem;color:#65c4aa;
+}
+.bst-num-w {
+    position:absolute;right:0.1rem;bottom:0.1rem
+}
+.bst-num {
+    padding-left:0.1rem;padding-right:0.1rem
+}
+.bst-total {
+    height:0.93rem
+}
+.bst-discount {
+    width:7.5rem;height:0.93rem;color:#3f3f45;border-bottom:0.01rem dotted #e7e6e5
+}
+.bst-icon1 {
+    width:0.25rem;height:0.25rem;margin-left:0.2rem
+}
+.bst-icon2 {
+    width:0.3rem;height:0.3rem;
+}
+.bst-new {
+    height:0.9rem;background-color:#f3f4f5
+}
+.bst-btn-w {
+    height:0.93rem;width:7.5rem;background-color:white;position:fixed;bottom:0.3rem
+}
+.bst-btn {
+    width:4rem;height:0.93rem;background-color:#65c4aa;color:white;border-radius:0.5rem
+}
+.bst-back {
+    width:7.5rem;position:absolute;top:0;background-color:black;opacity:0.5
+}
+.bst-pay-w {
+    width:7.5rem;height:8.8rem;background-color:white;position:absolute;bottom:0;font-size: 0.26rem;
+}
+.bst-pay {
+    width:7.5rem;height:0.93rem;color:#3f3f45;border-bottom:0.01rem dotted #e7e6e5
+}
+.bst-icon3 {
+    width:0.25rem;height:0.25rem;margin-left:0.2rem
+}
+.bst-confirm-w {
+    height:0.93rem;width:7.5rem;background-color:white;position:fixed;bottom:0.4rem
+}
+.bst-cancel {
+    font-family:PingFangSC-Thin;position:absolute;top:-0.2rem;right:0;font-size:0.45rem;padding:0.2rem
+}
+.bst-confirm {
+    width:7rem;height:0.93rem;background-color:#65c4aa;color:white;border-radius:0.15rem
+}

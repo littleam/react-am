@@ -1,0 +1,83 @@
+/*listDetail*/
+.lil-wrap {
+    height:2.3rem;display:flex;margin-left:0.2rem;margin-bottom:-0.01rem;border-bottom:0.01rem solid #e3e4e8;position:relative
+}
+.lil-pic {
+    width:1.4rem;height:1.4rem;margin:0.25rem;margin-left:0;border-radius:0.1rem
+}
+.lil-txt-w {
+    width:3.5rem;margin-top:0.3rem;font-size: 0.27rem;
+}
+.lil-txt1 {
+    font-size:0.22rem;color:#a9a9a9;
+}
+.lil-txt2 {
+    font-size:0.2rem;
+}
+.lil-txt3 {
+    color:#65c4aa;font-weight:700
+}
+.lil-txt4 {
+    font-size:0.20rem;text-decoration:line-Through;color:#a9a9a9
+}
+.lil-num-w {
+    position:absolute;right:0.1rem;bottom:0.1rem
+}
+.lil-num {
+    width:0.5rem;height:0.25rem;border:0.01rem solid #f3f4f5;border-radius:0.5rem;text-align:center;color:#65c4aa;padding-bottom:0.25rem;display:inline-block;font-weight:600;font-size:0.3rem
+}
+.lil-sub {
+    padding-left:0.2rem;padding-right:0.2rem
+}
+/*list*/
+.lst-wrap {
+    width:7.5rem;overflow:auto;position:relative;font-size:0.25rem
+}
+.lst-cat-w {
+    font-size:0.28rem;border-bottom:0.01rem solid #e3e4e8;width:7.5rem;height:0.96rem;display:flex;flex-direction:row;background-color:#f3f4f5;position:relative;font-size:0.28rem
+}
+.lst-cat-l {
+    width:3.75rem;display:flex;justify-content:center;align-items:center;text-align:center;
+}
+.lst-active {
+    color:#65c4aa
+}
+.lst-cat-line {
+    width:0.55rem;height:0.04rem;background-color:#65c4aa;position:absolute;bottom:0.25rem;left:1.6rem
+}
+.lst-d-w {
+    display:flex
+}
+.lst-l-w {
+    width:1.6rem;position:relative;background-color:#f3f4f5
+}
+.lst-l-line {
+    position:absolute;width:0.05rem;height:1.08rem;background-color:#65c4aa
+}
+.lst-l-active {
+    background-color:white;
+}
+.list-l-pic-w {
+    height:1.08rem;display:flex;justify-content:center;align-items:center;text-align:center;border-bottom:0.01rem solid #e3e4e8
+}
+.lst-l-pic {
+    width:0.25rem;height:0.25rem
+}
+.lst-r-w {
+    width:5.9rem
+}
+.lst-tab {
+    height:0.52rem;width:5.9rem;background-color:#f3f4f5;border-left:0.02rem solid #d6d3d3;display:flex;align-items:center;text-align:center;vertical-align:center
+}
+.lst-txt1 {
+    color:#333;padding-left:0.15rem
+}
+.lst-txt2 {
+    color:#a9a9a9;font-size:0.24rem;padding-left:0.15rem
+}
+.lst-pay-w {
+    width:7.5rem;height:0.96rem;background-color:#f3f4f5;position:fixed;bottom:0;font-size: 0.1rem;
+}
+.lst-submit {
+    width:2.5rem;height:1.5rem;background-color:#7DC2AB;position:absolute;right:0;color:white;text-align:center
+}
