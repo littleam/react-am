@@ -1,57 +1,47 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux'
 import './like.css'
-class Like extends Component {
-    render() {
-        return (
-            <div className="like-wrap">
-                <Link to="/buyDetail" className="like-link">
-                    <div className="like-w">
-                        <img src={require('./img/detail1@2.jpg')} className="like-pic" alt=""/>
-                        <div className="like-txt">
-                            <span className="like-title">现代工艺制作的天然美味</span><br/>
-                            <span className="like-des">ICA 45%混合水果见过燕麦片750g</span><br/>
-                            <span className="like-price-a">￥58</span>
-                            <span className="like-price-b">￥68</span>
-                        </div>
-
+const Like = (data) => {
+    if(!data.data.lists){return(<div>loading....</div>)}
+    if(data.data.lists){
+        let lists = data.data.lists.data.lists5 ;
+        return(
+            <div>
+                {
+                    !data ? <div>loading....</div>: <div className="like-wrap">
+                        {
+                            lists.map(list=><LikeItem key={list.id} name={list.name} des={list.des} newPrice={list.newPrice} oldPrice={list.oldPrice} pictrue={list.picLike}/>)
+                        }
                     </div>
-                </Link>
-                <div className="like-w">
-                    <img src={require('./img/detail2@2.jpg')} className="like-pic" alt=""/>
-                    <div className="like-txt">
-                        <span className="like-title">用内联艺术设计出真实的永生花</span><br/>
-                        <span className="like-des">英国 Gelei's Story 永生花玻璃瓶</span><br/>
-                        <span className="like-price-a">￥58</span>
-                        <span className="like-price-b">￥68</span>
-                    </div>
-
-                </div>
-                <div className="like-w">
-                    <img src={require('./img/detail3@2.jpg')} className="like-pic" alt=""/>
-                    <div className="like-txt">
-                        <span className="like-title">现代工艺制作的天然美味</span><br/>
-                        <span className="like-des">ICA 45%混合水果见过燕麦片750g</span><br/>
-                        <span className="like-price-a">￥58</span>
-                        <span className="like-price-b">￥68</span>
-                    </div>
-
-                </div>
-                <div className="like-w">
-                    <img src={require('./img/detail4@2.jpg')} className="like-pic" alt=""/>
-                    <div className="like-txt">
-                        <span className="like-title">用内联艺术设计出真实的永生花</span><br/>
-                        <span className="like-des">英国 Gelei's Story 永生花玻璃瓶</span><br/>
-                        <span className="like-price-a">￥58</span>
-                        <span className="like-price-b">￥68</span>
-                    </div>
-
-                </div>
-
+                }
             </div>
-        );
+        )
     }
 
 }
-export default Like;
+
+
+const LikeItem = ({name,des,newPrice,oldPrice,pictrue}) => (
+
+            <Link to="/buyDetail" className="like-link">
+                <div className="like-w">
+                    <img src={require(`../../category/sortDetail/img/${pictrue}.jpg`)} className="like-pic" alt=""/>
+                    <div className="like-txt">
+                        <span className="like-title">{name}</span><br/>
+                        <span className="like-des">{des}</span><br/>
+                        <span className="like-price-a">￥{newPrice}</span>
+                        <span className="like-price-b">￥{oldPrice}</span>
+                    </div>
+                </div>
+            </Link>
+
+    );
+const mapStateToProps = state => ({
+    data: state.FetchGetList
+});
+
+export default connect(
+    mapStateToProps
+)(Like)
 

@@ -1,3 +1,7 @@
+.like-link {
+    text-decoration: none;
+    color:#3f3f45;
+}
 .like-wrap {
     display:flex;flex-wrap:wrap
 }

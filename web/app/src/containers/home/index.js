@@ -19,7 +19,7 @@ class Home extends Component {
         return(
             <div style={{position:'absolute',left:0,top:0,width:'100%',height:'100%',overflow:'auto'}}>
                 <div style={{position:'absolute',left:0,top:0,width:'100%'}}>
-                    <Search/>
+                   <Search/>
 
                     <Move/>
                     <SeparateLine/>

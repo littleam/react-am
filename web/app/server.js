@@ -1,23 +1,24 @@
 const express = require('express');
-const app = express();
+let app = express();
+
 app.get('/',(req,res,next)=>{
-  res.send('welcome')
+    res.send('welcome')
 });
 const data = require('./data.json');
-const seller = data.seller;
-const list = data.list;
+const sellers = data.sellers;
+const lists = data.lists;
 const routes = express.Router();
-routes.get('/seller',(req,res)=>{
-  res.json({
-    errno:0,
-    data:seller
-  });
+routes.get('/sellers',(req,res)=>{
+    res.json({
+        errno:0,
+        data:sellers
+    });
 });
-routes.get('/list',(req,res)=>{
-  res.json({
-    errno:0,
-    data:list
-  });
+routes.get('/lists',(req,res)=>{
+    res.json({
+        errno:0,
+        data:lists
+    });
 });
 app.use('/api',routes);
 app.listen(8080,(error) => {

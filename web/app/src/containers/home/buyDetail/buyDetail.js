@@ -33,8 +33,6 @@ class MoveTwo extends Component {
                         src={require('./img/pic1-h2@2.jpg')} alt="" /></div>
                     <div><img
                         src={require('./img/pic1-h2@2.jpg')} alt="" /></div>
-
-
                 </Swipe>
 
                 <ul className="mto-cir-w">
@@ -58,7 +56,8 @@ class BuyDetail extends Component {
             screenHeight:screenHeight,
             showBuyConfirm:false
         };
-        this.showBuyConfirm = this.showBuyConfirm.bind(this)
+        this.showBuyConfirm = this.showBuyConfirm.bind(this);
+        this.back = this.back.bind(this);
     }
     render() {
         let screenHeight = this.state.screenHeight;
@@ -75,6 +74,9 @@ class BuyDetail extends Component {
                     </div>
                     {/*商品介绍*/}
                     {/*<img src={require('./img/pic1-h1@2.jpg')} className="bdl-pic-big" alt=""/>*/}
+                    <div className="bdl-back" onClick={this.back}>
+                        <img src={require('./img/back1@2.png')} className="bdl-back-pic" alt=""/>
+                    </div>
                     <MoveTwo/>
                     <div className="bdl-body">
                     <div className="bdl-info">
@@ -152,6 +154,9 @@ class BuyDetail extends Component {
         this.setState({
             showBuyConfirm:true
         })
+    }
+    back(){
+        window.history.back()
     }
 
 }

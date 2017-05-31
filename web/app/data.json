@@ -1,6 +1,6 @@
 {
-  "seller":{
-    "seller1": {
+  "sellers":{
+    "sellers1": {
       "id":123,
       "headerPic":"",
       "name": "唯美驿站",
@@ -203,7 +203,7 @@
         }
       ]
     },
-    "seller2": {
+    "sellers2": {
       "id":456,
       "headerPic":"",
       "name": "Ava小小铺",
@@ -395,8 +395,8 @@
       ]
     }
   },
-  "list": {
-    "list1":[
+  "lists": {
+    "lists1":[
       {
         "id":"a1",
         "country":"china",
@@ -879,7 +879,7 @@
         ]
       }
     ],
-    "list2":[
+    "lists2":[
       {
         "id":"b1",
         "country":"china",
@@ -1362,7 +1362,7 @@
         ]
       }
     ],
-    "list3":[
+    "lists3":[
       {
         "id":"c1",
         "country":"china",
@@ -1845,7 +1845,7 @@
         ]
       }
     ],
-    "list4":[
+    "lists4":[
       {
         "id":"d1",
         "country":"china",
@@ -2328,7 +2328,7 @@
         ]
       }
     ],
-    "list5":[
+    "lists5":[
       {
         "id":"e1",
         "country":"china",
@@ -2812,6 +2812,6 @@
       }
     ]
   },
-  "cart":{},
-  "order":{}
+  "carts":{},
+  "orders":{}
 }

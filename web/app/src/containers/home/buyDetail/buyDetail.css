@@ -1,8 +1,4 @@
 /*MoveTwo*/
-.like-link {
-    text-decoration: none;
-    color:#3f3f45;
-}
 .mto-wrap {
     width: 7.5rem;
     height:4.95rem;
@@ -41,12 +37,31 @@
     color:#3f3f45;
     width:7.5rem;
     overflow: auto;
+    position: relative;
 }
 .bdl-whole {
     padding-bottom:0.94rem;
 }
 .bdl-none {
     display:none
+}
+.bdl-back {
+    width: 7.5rem;
+    height:0.8rem;
+
+    background-image: linear-gradient(
+            to top,
+            rgba(0,0,0,0) 0%,
+            rgba(0,0,0,0.1) 50%,
+            rgba(0,0,0,0.2) 100%);
+    position: absolute;
+    z-index: 1;
+}
+.bdl-back-pic {
+    width:0.25rem;
+    height:0.42rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
 }
 .bdl-pic-big {
     width:7.5rem;
